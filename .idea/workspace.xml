@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad30bdd8-c493-4d15-8442-fc162620a0a5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/general/GeneralTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/general/GeneralTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/general/GeneralTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/general/GeneralTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,23 +24,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeneralTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GeneralTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/general/GeneralTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="180" column="3" selection-start-line="180" selection-start-column="3" selection-end-line="180" selection-end-column="3" />
+            <state relative-caret-position="447">
+              <caret line="186" column="4" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -192,8 +181,8 @@
         <option value="$PROJECT_DIR$/src/main/java/exceptions/BabyFoundOnConveyorBeltException.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/services/Scanner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/general/GeneralTest.java" />
         <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/src/test/java/general/GeneralTest.java" />
       </list>
     </option>
   </component>
@@ -498,7 +487,7 @@
       <workItem from="1531171951410" duration="24790000" />
       <workItem from="1531415211388" duration="14004000" />
       <workItem from="1531918865663" duration="25000" />
-      <workItem from="1534043440434" duration="3883000" />
+      <workItem from="1534043440434" duration="5459000" />
     </task>
     <servers />
   </component>
@@ -535,7 +524,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42702000" />
+    <option name="totallyTimeSpent" value="44278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1011,16 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/general/GeneralTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="180" column="3" selection-start-line="180" selection-start-column="3" selection-end-line="180" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JavaScript-modules-diagram/C:/Users/user/IdeaProjects/miscell3/src/main/java">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1081,7 +1060,17 @@
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
+          <caret line="5" column="55" lean-forward="true" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/general/GeneralTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="186" column="4" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
