@@ -1,0 +1,9 @@
+entities\ItemWeightPriceLookup.class
+entities\Coupon.class
+exceptions\PlaceOnScaleException.class
+services\CouponService.class
+entities\CouponItem.class
+entities\Item.class
+exceptions\BabyFoundOnConveyorBeltException.class
+services\Scanner.class
+services\Scanner$1.class

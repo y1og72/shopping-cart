@@ -1,0 +1,6 @@
+to run the tests, use maven:
+1. mvn test
+
+The tests exist in src/test/java/general/GeneralTest
+
+#todo try to impress the pillar review people with some documentation and really cool diagrams

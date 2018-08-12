@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: general.GeneralTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.096 s <<< FAILURE! - in general.GeneralTest
+testPillar(general.GeneralTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: You've added all these test cases without any assert statements?  They will not look kindly upon you sir.  Oh crap I'm talking to myself in 3rd person point of view again.. and in a junit test method....
+	at general.GeneralTest.testPillar(GeneralTest.java:185)
+
