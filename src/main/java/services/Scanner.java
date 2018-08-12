@@ -34,21 +34,21 @@ public class Scanner {
         for (Item itemAffectedByCoupon : itemsAffectedByCoupon) {
           incr++;
           if (coupon.getName().equals("Buy 2 items get 1 at %50 off.")) {
-            if (incr%3==0) itemAffectedByCoupon.setPriceAdjusted(BigDecimal(item.getPrice())*.5);
+            if (incr%3==0) itemAffectedByCoupon.setPriceAdjusted(new BigDecimal((Double.parseDouble(item.getPrice()))*.5));
           } else if (coupon.getName().equals("Buy 1 get 1 free.")) {
-            if (incr%2==0) itemAffectedByCoupon.setPriceAdjusted(0d);
+            if (incr%2==0) itemAffectedByCoupon.setPriceAdjusted(new BigDecimal(0d));
           } else if (coupon.getName().equals("3 for $5.00")) {
             //set in groups of three
             if (incr%3==0) {
-              itemAffectedByCoupon.setPriceAdjusted(1.67d);
-              itemsAffectedByCoupon.get(incr-1-1).setPriceAdjusted(1.66d);
-              itemsAffectedByCoupon.get(incr-2-1).setPriceAdjusted(1.67d);
+              itemAffectedByCoupon.setPriceAdjusted(new BigDecimal(1.67d));
+              itemsAffectedByCoupon.get(incr-1-1).setPriceAdjusted(new BigDecimal(1.66d));
+              itemsAffectedByCoupon.get(incr-2-1).setPriceAdjusted(new BigDecimal(1.67d));
             }
           } else if (coupon.getName().equals("buy 2 get 1 free, limit 6")) {
-            if (incr%3==0&&incr<=6) itemAffectedByCoupon.setPriceAdjusted(0d);
+            if (incr%3==0&&incr<=6) itemAffectedByCoupon.setPriceAdjusted(new BigDecimal(0d));
           } else if (coupon.getName().equals("Buy 2, get 3rd of equal or lesser value for %20 off")) {
             //list is sorted in price desc so this should work
-            if (incr%3==0) itemAffectedByCoupon.setPriceAdjusted(Double.parseDouble(item.getPrice())*.8);
+            if (incr%3==0) itemAffectedByCoupon.setPriceAdjusted(new BigDecimal(Double.parseDouble(item.getPrice())*.8));
           }
         }
       }
@@ -56,7 +56,7 @@ public class Scanner {
 
     this.total=0d;
     for (Item item : itemsScanned) {
-      if (item.getPriceAdjusted()!=null) total+=item.getPriceAdjusted();
+      if (item.getPriceAdjusted()!=null) total+=item.getPriceAdjusted().doubleValue();
       else total+=Double.parseDouble(item.getPrice());
     }
     return total;

@@ -5,6 +5,7 @@ import entities.CouponItem;
 import entities.Item;
 import entities.ItemWeightPriceLookup;
 import exceptions.BabyFoundOnConveyorBeltException;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import services.Scanner;
@@ -13,6 +14,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+
+import static org.junit.Assert.fail;
 
 public class GeneralTest {
   List<Item> shoppingCart;
@@ -48,11 +51,6 @@ public class GeneralTest {
     shoppingCart.add(Item.findByName("2 Liter of Coke-Cola"));
     shoppingCart.add(Item.findByName("2 Liter of Coke-Cola"));
     this.coupons=Coupon.all();
-  }
-
-  @Test
-  public void testSomething() {
-    assert(false);
   }
 
   @Test
@@ -180,5 +178,11 @@ public class GeneralTest {
       }
     }
     scanner.endTransactionSession();
+  }
+
+  @Test
+  public void testPillar() {
+    fail("You've added all these test cases without any assert statements?  They will not look kindly upon you sir.  Oh crap I'm talking to myself in 3rd person point of view again.. and in a junit test method....");
+    Assert.assertTrue(false);
   }
 }
